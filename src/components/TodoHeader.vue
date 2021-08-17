@@ -1,6 +1,7 @@
 <template>
   <header>
-    <h1>Todo it! (author: ChoiSuhyeon)</h1>
+    <h1>TodoList !</h1>
+    <h2> (author: ChoiSuhyeon)</h2>
   </header>
 </template>
 
@@ -12,8 +13,11 @@ export default {
 
 <style scoped>
   h1{
-    color: #32528d;
-      font-weight:900;
-     margin: 2.5rem 0 1.5rem;
+    color: #f2f0f5;
+      font-weight:1900;
+     margin: 2.5em 0 rem;
+  }
+  h2{
+    color:rgb(203, 255, 250);
   }
 </style>

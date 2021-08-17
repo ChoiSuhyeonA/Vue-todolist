@@ -4,6 +4,7 @@
     <TodoInput v-on:addTodo="addTodo"></TodoInput>
     <TodoList v-bind:propsdata="todoItems" v-on:removeTodo="removeTodo"></TodoList>
     <TodoFooter v-on:removeAll ="clearAll"></TodoFooter>
+    
   </div>
 </template>
 
@@ -59,7 +60,7 @@ export default {
 <style>
   body{
     text-align: center;
-    background-color: #F6F6F8;
+    background-color: #91e0fd;
   }
   input{
     border-style: groove;
@@ -69,6 +70,6 @@ export default {
     border-style:groove;
   }
   .shadow{
-    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.03);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.03);
   }
 </style>

@@ -19,7 +19,7 @@ export default {
     width: 8.5rem;
     height: 50px;
     line-height: 50px;
-    background-color: rgb(15, 228, 111);
+    background-color: rgb(176, 241, 205);
     border-radius: 10px;
     margin: 0 auto;
   }
